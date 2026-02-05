@@ -1,10 +1,10 @@
-# 🌦️ Projecte Web Meteorològica
+# Projecte Web Meteorològica
 
 Aquest projecte és un sistema web per a la visualització de dades meteorològiques, desenvolupat amb PHP i MySQL. Les dades meteorològiques inclouen temperatura, humitat, pressió, velocitat del vent i precipitació. També s'ha inclòs un script en Python per generar dades de prova.
 
 ---
 
-## 👥 Membres del projecte
+## Membres del projecte
 
 - [Oleguer Esteo](https://olegueresteo.es/)  
 - [David Gutierrez](https://davidgutierrez.es/)  
@@ -12,7 +12,7 @@ Aquest projecte és un sistema web per a la visualització de dades meteorològi
 
 ---
 
-## 🧰 Tecnologies utilitzades
+## Tecnologies utilitzades
 
 - PHP  
 - MySQL  
@@ -23,7 +23,7 @@ Aquest projecte és un sistema web per a la visualització de dades meteorològi
 
 ---
 
-## ⚙️ Requisits previs
+## Requisits previs
 
 - XAMPP (o un entorn equivalent amb Apache, PHP i MySQL)  
 - Python 3 (per executar l'script de generació de dades)  
@@ -31,7 +31,7 @@ Aquest projecte és un sistema web per a la visualització de dades meteorològi
 
 ---
 
-## ⚙️ Instruccions per posar en marxa el projecte
+## Instruccions per posar en marxa el projecte
 
 1. Instal·la XAMPP i inicia els serveis:
    - Apache → Start  
@@ -51,7 +51,7 @@ Aquest projecte és un sistema web per a la visualització de dades meteorològi
 
 ---
 
-## 🧪 Generació de dades de prova (Python + Faker)
+## Generació de dades de prova (Python + Faker)
 
 S'ha creat un script en Python (`aleatoridades.py`) per generar dades de prova automàticament.
 
@@ -96,7 +96,7 @@ Característiques:
 
 ---
 
-## 🌐 Accés al projecte
+## Accés al projecte
 
 Un cop el projecte està en funcionament, es pot accedir a:
 
@@ -114,7 +114,7 @@ Un cop el projecte està en funcionament, es pot accedir a:
 
 ---
 
-## 📁 Estructura del projecte (resum)
+## Estructura del projecte (resum)
 
 Arbre de fitxers i carpetes principals:
 
@@ -141,17 +141,8 @@ aleatoridades.py     -> Script Python per generar dades de prova
 
 ---
 
-## 📝 Notes i recomanacions
+## Notes i recomanacions
 
 - Revisar `connexio.php` per configurar usuari, contrasenya i nom de la base de dades abans d'executar l'aplicació.
 - Assegura't que les rutes a imatges i fulls d'estil (`/estils`, `/imatges`) siguin accessibles des del servidor Apache.
 
----
-
-## 📬 Contacte
-
-- LinkedIn(Oleguer) : [Oleguer Esteo](https://www.linkedin.com/in/oleguer-esteo-mart%C3%ADnez/)  
-
-Per dubtes o col·laboracions, contactar amb els membres del projecte indicats a la secció "Membres del projecte".
-
----
