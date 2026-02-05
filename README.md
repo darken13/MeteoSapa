@@ -1,10 +1,10 @@
-# Projecte Web Meteorològica
+# Proyecto Web Meteorológica
 
-Aquest projecte és una aplicació web per a la visualització de dades meteorològiques, desenvolupat amb PHP i MySQL. Les dades meteorològiques inclouen temperatura, humitat, pressió, velocitat del vent i precipitació. També s'ha inclòs un script en Python per generar dades de prova.
+Este proyecto es una aplicación web para la visualización de datos meteorológicos, desarrollada con PHP y MySQL. Los datos meteorológicos incluyen temperatura, humedad, presión, velocidad del viento y precipitación. También se ha incluido un script en Python para generar datos de prueba.
 
 ---
 
-## Membres del projecte
+## Miembros del proyecto
 
 - [Oleguer Esteo](https://olegueresteo.es/)  
 - [David Gutierrez](https://davidgutierrez.es/)  
@@ -12,64 +12,64 @@ Aquest projecte és una aplicació web per a la visualització de dades meteorol
 
 ---
 
-## Tecnologies utilitzades
+## Tecnologías utilizadas
 
 - PHP  
 - MySQL  
 - HTML / CSS  
-- Python (per a generar dades de prova)  
-- Faker (llibreria de Python)  
+- Python (para generar datos de prueba)  
+- Faker (librería de Python)  
 - XAMPP (Apache + MySQL + PHP)
 
 ---
 
-## Requisits previs
+## Requisitos previos
 
-- XAMPP (o un entorn equivalent amb Apache, PHP i MySQL)  
-- Python 3 (per executar l'script de generació de dades)  
-- pip (gestor de paquets Python)
+- XAMPP (o un entorno equivalente con Apache, PHP y MySQL)  
+- Python 3 (para ejecutar el script de generación de datos)  
+- pip (gestor de paquetes de Python)
 
 ---
 
-## Instruccions per posar en marxa el projecte
+## Instrucciones para poner en marcha el proyecto
 
-1. Instal·la XAMPP i inicia els serveis:
+1. Instala XAMPP e inicia los servicios:
    - Apache → Start  
    - MySQL → Start
 
-2. Importa la base de dades:
-   - Els scripts per crear la base de dades i les taules es troben a:
+2. Importa la base de datos:
+   - Los scripts para crear la base de datos y las tablas se encuentran en:
      ```
      BBDD/script.sql
      ```
-   - Pots executar aquest script amb phpMyAdmin o la consola de MySQL:
-     - phpMyAdmin: accedeix a `http://ip_servidor/phpmyadmin` i importa `BBDD/script.sql`.
+   - Puedes ejecutar este script con phpMyAdmin o la consola de MySQL:
+     - phpMyAdmin: accede a `http://ip_servidor/phpmyadmin` e importa `BBDD/script.sql`.
      - Consola MySQL:
        ```bash
-       mysql -u usuari -p nom_base_de_dades < BBDD/script.sql
+       mysql -u usuario -p nombre_base_de_datos < BBDD/script.sql
        ```
 
 ---
 
-## Generació de dades de prova (Python + Faker)
+## Generación de datos de prueba (Python + Faker)
 
-S'ha creat un script en Python (`aleatoridades.py`) per generar dades de prova automàticament.
+Se ha creado un script en Python (`aleatoriedades.py`) para generar datos de prueba automáticamente.
 
-Característiques:
-- Utilitza la llibreria `Faker`.
-- Genera dades per als anys 2022 a 2025.
-- Per cada dia es generen dues entrades diàries per a cada variable meteorològica (temperatura, humitat, pressió, vent i precipitació).
+Características:
+- Utiliza la librería `Faker`.
+- Genera datos para los años 2022 a 2025.
+- Por cada día se generan dos entradas diarias para cada variable meteorológica (temperatura, humedad, presión, viento y precipitación).
 
-### Executar l'script de generació de dades
+### Ejecutar el script de generación de datos
 
-És recomanable utilitzar un entorn virtual Python:
+Es recomendable utilizar un entorno virtual Python:
 
-1. Crear l'entorn virtual:
+1. Crear el entorno virtual:
    ```bash
    python3 -m venv venv
    ```
 
-2. Activar l'entorn virtual:
+2. Activar el entorno virtual:
    - Linux / macOS:
      ```bash
      source venv/bin/activate
@@ -79,28 +79,28 @@ Característiques:
      .\venv\Scripts\Activate.ps1
      ```
 
-3. Instal·lar dependències:
+3. Instalar dependencias:
    ```bash
    pip install faker
    ```
 
-4. Executar l'script:
+4. Ejecutar el script:
    ```bash
    python aleatoridades.py
    ```
 
-5. Desactivar l'entorn virtual:
+5. Desactivar el entorno virtual:
    ```bash
    deactivate
    ```
 
 ---
 
-## Accés al projecte
+## Acceso al proyecto
 
-Un cop el projecte està en funcionament, es pot accedir a:
+Una vez el proyecto está en funcionamiento, se puede acceder a:
 
-- Web del projecte:
+- Web del proyecto:
   ```
   http://ip_servidor/Projecte/index.php
   ```
@@ -110,13 +110,13 @@ Un cop el projecte està en funcionament, es pot accedir a:
   http://ip_servidor/phpmyadmin
   ```
 
-(Substitueix `ip_servidor` per l'adreça IP o `localhost` segons el teu entorn.)
+(Sustituye `ip_servidor` por la dirección IP o `localhost` según tu entorno.)
 
 ---
 
-## Estructura del projecte (resum)
+## Estructura del proyecto (resum)
 
-Arbre de fitxers i carpetes principals:
+Árbol de archivos y carpetas principales:
 
 ```
 MeteoSapa
@@ -151,8 +151,8 @@ MeteoSapa
 
 ---
 
-## Notes i recomanacions
+## Notas y recomendaciones
 
-- Revisar `connexio.php` per configurar usuari, contrasenya i nom de la base de dades abans d'executar l'aplicació.
-- Assegura't que les rutes a imatges i fulls d'estil (`/estils`, `/imatges`) siguin accessibles des del servidor Apache.
+- Revisa `connexio.php` para configurar usuario, contraseña y nombre de la base de datos antes de ejecutar la aplicación.
+- Asegúrate de que las rutas a imágenes y hojas de estilo (`/styles`, `/imatges`) sean accesibles desde el servidor Apache.
 
