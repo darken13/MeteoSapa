@@ -1,6 +1,6 @@
 # Projecte Web Meteorològica
 
-Aquest projecte és un sistema web per a la visualització de dades meteorològiques, desenvolupat amb PHP i MySQL. Les dades meteorològiques inclouen temperatura, humitat, pressió, velocitat del vent i precipitació. També s'ha inclòs un script en Python per generar dades de prova.
+Aquest projecte és una aplicació web per a la visualització de dades meteorològiques, desenvolupat amb PHP i MySQL. Les dades meteorològiques inclouen temperatura, humitat, pressió, velocitat del vent i precipitació. També s'ha inclòs un script en Python per generar dades de prova.
 
 ---
 
