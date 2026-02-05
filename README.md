@@ -126,7 +126,7 @@ MeteoSapa
 │   └── Fitxers CSS
 ├── /imatges
 │   └── Imatges del projecte
-├── /login               -
+├── /login               
 │   └── Secció de login (fitxers relacionats)
 ├── index.php
 ├── header.php
