@@ -146,7 +146,7 @@ MeteoSapa
 ├── preferits_eliminar.php
 ├── pressio.php
 ├── temperatura.php
-└──vent.php
+└── vent.php
 ```
 
 ---
